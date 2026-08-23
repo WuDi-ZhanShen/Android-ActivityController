@@ -1,0 +1,20 @@
+package android.app;
+
+import android.os.Binder;
+import android.os.RemoteException;
+
+/** Compile-only hidden API stub. The platform implementation is used at runtime. */
+public interface IUidObserver {
+    void onUidGone(int uid) throws RemoteException;
+    void onUidGone(int uid, boolean disabled) throws RemoteException;
+    void onUidActive(int uid) throws RemoteException;
+    void onUidIdle(int uid) throws RemoteException;
+    void onUidIdle(int uid, boolean disabled) throws RemoteException;
+    void onUidStateChanged(int uid, int procState) throws RemoteException;
+    void onUidStateChanged(int uid, int procState, long procStateSeq) throws RemoteException;
+    void onUidStateChanged(int uid, int procState, long procStateSeq, int capability) throws RemoteException;
+    void onUidCachedChanged(int uid, boolean cached) throws RemoteException;
+
+    abstract class Stub extends Binder implements IUidObserver {
+    }
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">禁止启动</string>
+    <string name="package_classify">应用分类</string>
+    <string name="c">排序方式</string>
+    <string name="d">全部应用</string>
+    <string name="e">用户应用</string>
+    <string name="f">系统应用</string>
+    <string name="g">设置</string>
+    <string name="h">亮色主题</string>
+    <string name="i">关于应用</string>
+    <string name="j">[系统]</string>
+    <string name="k">[入口]</string>
+    <string name="exit">退出</string>
+    <string name="m">没有搜索结果</string>
+    <string name="n">此分类无搜索结果</string>
+    <string name="o">没有应用</string>
+    <string name="p">再按一次返回键退出程序</string>
+    <string name="q">活动信息</string>
+    <string name="r">重新加载</string>
+    <string name="s">名称：</string>
+    <string name="t">名称：</string>
+    <string name="u">类名：</string>
+    <string name="v">如果无法创建桌面快捷方式请到%s检查是否已授予本软件“添加桌面快捷方式”权限</string>
+    <string name="w">更多</string>
+    <string name="x">应用详情页</string>
+    <string name="y">复制包类名</string>
+    <string name="z">添加到桌面</string>
+    <string name="a0">已添加到桌面</string>
+    <string name="a1">添加到桌面失败</string>
+    <string name="a2">打开活动</string>
+    <string name="a3">已复制剪贴板</string>
+    <string name="show_unexported_activity">显示未导出的活动</string>
+    <string name="classify_system">系统应用</string>
+    <string name="classify_user">用户应用</string>
+    <string name="classify_all">全部应用</string>
+
+</resources>
